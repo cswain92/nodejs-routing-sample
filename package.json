@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
   "start": "node index.js",
+  "build": "mkdir -p dist && echo 'Build Complete!' > dist/output.txt",
   "test": "jest"
   },
   "keywords": [],
