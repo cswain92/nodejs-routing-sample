@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
     res.send('<h1>About Page</h1>');
 });
+// Route 3: About Page
+app.get('/next', (req, res) => {
+    res.send('<h1>About Next Page</h1>');
+});
 
 // Start the Server
 app.listen(PORT, () => {
